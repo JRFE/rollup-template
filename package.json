@@ -1,0 +1,35 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "年会抽奖系统",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev node build/index.js",
+    "build": "NODE_ENV=product node build/index.js"
+  },
+  "keywords": [
+    "抽奖",
+    "年会"
+  ],
+  "author": "renjie.fei",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-stage-1": "^7.0.0",
+    "@babel/runtime-corejs2": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "babel-runtime": "^6.26.0",
+    "less": "^3.9.0",
+    "live-server": "^1.2.1",
+    "ora": "^3.0.0",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-copy": "^0.2.3",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-postcss": "^1.6.3"
+  }
+}

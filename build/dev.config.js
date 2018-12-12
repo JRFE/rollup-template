@@ -9,7 +9,7 @@ const babel = require('rollup-plugin-babel')
 const resolve = require('rollup-plugin-node-resolve')
 const commonjs =require('rollup-plugin-commonjs')
 const copy = require('rollup-plugin-copy')
-const html = require('./plugins/rollup-plugin-html')
+const html = require('rollup-plugin-html-template')
 var once = true
 
 module.exports = {
